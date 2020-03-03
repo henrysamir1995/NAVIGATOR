@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Ingresar a la BACS
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 275.224 s <<< FAILURE! - in Ingresar a la BACS
+Loguearse(Ingresar a la BACS)  Time elapsed: 275.224 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input data-locale-label-id="continue" type="submit" class="ibm-btn-pri ibm-btn-blue-50 ng-signin-cta-2 buttonRegister login-true login-button" onclick="startLoginProcess();" aria-label="Continuar" value="Continuar"> is not clickable at point (512, 355). Other element would receive the click: <iframe src="https://consent-pref.trustarc.com/?type=ibm_test&amp;site=ibm.com&amp;action=notice&amp;country=pe&amp;locale=es&amp;behavior=expressed&amp;gtm=1&amp;layout=default_eu&amp;from=https://consent.trustarc.com/" id="pop-frame08796670755441411" tabindex="1" scrolling="no" style="border: 0px; border-radius: 2px; overflow: hidden; background: rgb(255, 255, 255); display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 464px;"></iframe>
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PROQACAM5W10', ip: '10.11.165.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 594a482d60e287eefaa0700b6370c51e
+

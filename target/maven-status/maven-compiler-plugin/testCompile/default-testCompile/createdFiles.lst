@@ -1,0 +1,4 @@
+Navigator\pageobject\PaginaPrincipal.class
+Navigator\steps\UsuarioNavigator.class
+Navigator\stepsdefinitions\UsuarioDefinicionDePasos.class
+Runner.class
